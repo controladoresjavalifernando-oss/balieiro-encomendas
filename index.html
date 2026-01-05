@@ -1,81 +1,144 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Balieiro Encomendas</title>
-<style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0b0f1a;
-  color: #ffffff;
-}
-header {
-  background: linear-gradient(135deg, #0b1c3d, #000);
-  padding: 30px 20px;
-  text-align: center;
-}
-header h1 {
-  color: #3fa9f5;
-  margin-bottom: 10px;
-}
-header p {
-  font-size: 16px;
-}
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 15px 25px;
-  background: #25d366;
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 8px;
-}
-section {
-  padding: 20px;
-}
-.card {
-  background: #111827;
-  border: 1px solid #1e3a8a;
-  border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 15px;
-}
-.card h2 {
-  color: #3fa9f5;
-}
-footer {
-  text-align: center;
-  padding: 15px;
-  font-size: 14px;
-  color: #aaa;
-}
-</style>
+  <meta charset="UTF-8">
+  <title>Encomendas Abertas | Eletrônicos e Utilidades</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #000814, #001d3d);
+      color: #ffffff;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px;
+      background: #000814;
+    }
+
+    header h1 {
+      color: #00b4ff;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #cfcfcf;
+      font-size: 18px;
+    }
+
+    .container {
+      padding: 30px 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: #001d3d;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,180,255,0.2);
+    }
+
+    .card h3 {
+      color: #00b4ff;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #e0e0e0;
+    }
+
+    .cta {
+      margin: 40px 0;
+    }
+
+    .cta a {
+      background: #00b4ff;
+      color: #000;
+      padding: 15px 25px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .cta a:hover {
+      background: #0096d6;
+    }
+
+    footer {
+      background: #000814;
+      padding: 15px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
-  <h1>PEGANDO ENCOMENDAS</h1>
-  <p>Eletrônicos e utilidades em geral</p>
-  <p>✔ Atendimento direto • ✔ Produtos selecionados</p>
-  <a class="btn" href="https://wa.me/5517992867014?text=Olá,%20quero%20fazer%20uma%20encomenda">
-    FAZER PEDIDO NO WHATSAPP
-  </a>
+  <h1>📦 PEGANDO ENCOMENDAS</h1>
+  <p>Eletrônicos, utilidades e produtos de alta procura</p>
 </header>
 
-<section>
-  <div class="card"><h2>📱 Eletrônicos</h2><a class="btn" href="https://wa.me/5517992867014">Consultar no WhatsApp</a></div>
-  <div class="card"><h2>🎧 Fones de Ouvido</h2><a class="btn" href="https://wa.me/5517992867014">Consultar no WhatsApp</a></div>
-  <div class="card"><h2>🥤 Copos Térmicos</h2><a class="btn" href="https://wa.me/5517992867014">Consultar no WhatsApp</a></div>
-  <div class="card"><h2>🔦 Lanternas</h2><a class="btn" href="https://wa.me/5517992867014">Consultar no WhatsApp</a></div>
-  <div class="card"><h2>🔪 Canivetes</h2><a class="btn" href="https://wa.me/5517992867014">Consultar no WhatsApp</a></div>
-</section>
+<div class="container">
+
+  <h2>🔥 Produtos Disponíveis</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>🎧 Fones de Ouvido</h3>
+      <p>Bluetooth, esportivo, gamer e muito mais.</p>
+    </div>
+
+    <div class="card">
+      <h3>🔌 Eletrônicos</h3>
+      <p>Carregadores, cabos, caixas de som e acessórios.</p>
+    </div>
+
+    <div class="card">
+      <h3>🥤 Copos Térmicos</h3>
+      <p>Conserva quente ou gelado por horas.</p>
+    </div>
+
+    <div class="card">
+      <h3>🔦 Lanternas</h3>
+      <p>Alta potência, recarregável e profissional.</p>
+    </div>
+
+    <div class="card">
+      <h3>🔪 Canivetes</h3>
+      <p>Utilitário, camping, pesca e uso diário.</p>
+    </div>
+
+    <div class="card">
+      <h3>➕ Outros Produtos</h3>
+      <p>Chama no WhatsApp e consulte disponibilidade.</p>
+    </div>
+  </div>
+
+  <div class="cta">
+    <a href="https://wa.me/5517992867014" target="_blank">
+      📲 FAZER ENCOMENDA NO WHATSAPP
+    </a>
+  </div>
+
+</div>
 
 <footer>
-  © 2026 - Balieiro Encomendas
+  © 2026 • Encomendas Online • Atendimento direto no WhatsApp
 </footer>
 
 </body>
